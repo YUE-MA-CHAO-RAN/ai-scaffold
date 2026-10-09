@@ -7,7 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Configurable
 public class Application {
-
+    /**
+     * test
+     *
+     * nihao
+     * @param args
+     */
     public static void main(String[] args){
         SpringApplication.run(Application.class);
     }

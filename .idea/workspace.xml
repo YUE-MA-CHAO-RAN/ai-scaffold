@@ -4,73 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a5c34cd-4e73-4d49-97ea-43ae2eb38edd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-api/src/main/java/cn/chaoma/ai/api/dto/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-api/src/main/java/cn/chaoma/ai/api/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-api/src/main/java/cn/chaoma/ai/api/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/config/GuavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/config/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/config/ThreadPoolConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/config/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/resources/mybatis/mapper/frame_case_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-app/src/test/java/cn/chaoma/ai/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/adapter/port/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/adapter/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/xxx/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/yyy/adapter/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/yyy/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/yyy/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/yyy/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-domain/src/main/java/cn/chaoma/ai/domain/yyy/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/adapter/port/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/adapter/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/dao/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/dao/po/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/gateway/dto/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/gateway/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-infrastructure/src/main/java/cn/chaoma/ai/infrastructure/redis/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-trigger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-trigger/src/main/java/cn/chaoma/ai/trigger/http/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-trigger/src/main/java/cn/chaoma/ai/trigger/job/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-trigger/src/main/java/cn/chaoma/ai/trigger/listener/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-types/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-types/src/main/java/cn/chaoma/ai/types/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-types/src/main/java/cn/chaoma/ai/types/enums/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-scaffold-types/src/main/java/cn/chaoma/ai/types/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/stop.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose-app.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose-environment-aliyun.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose-environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/xfg-frame-archetype.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8a5c34cd-4e73-4d49-97ea-43ae2eb38edd" name="Changes" comment="feat: init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent-scaffold-app/src/main/java/cn/chaoma/ai/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.agent-scaffold [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -107,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "2-2-api",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -139,11 +81,47 @@
       <option name="presentableId" value="Default" />
       <updated>1790752911009</updated>
       <workItem from="1790752912131" duration="1015000" />
-      <workItem from="1790754091907" duration="670000" />
+      <workItem from="1790754091907" duration="5690000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1790755089415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790755089415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
   </component>
 </project>
